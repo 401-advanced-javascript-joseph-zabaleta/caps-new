@@ -29,7 +29,7 @@ function generateOrder() {
     let payload = {};
 
     payload.orderId = chance.integer();
-    payload.storeName = process.env.storeName;
+    payload.storeName = process.env.storeName || 'Default Store';
     payload.customerName = chance.name();
     payload.address = chance.address();
 
