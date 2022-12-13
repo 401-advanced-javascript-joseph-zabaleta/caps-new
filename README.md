@@ -23,16 +23,12 @@ Current Phase: Phase 1
 #### Phase 1: Event Driven Applications
 - Using built-in Node.js events to simulate realtime package delivery changes
 
-#### Phase 2: Networked events with TCP
-- Networked version of the app using TCP
-- Creation of the Hub, Vendor, and Driver apps as separate applications, networked together
-
-#### Phase 3: Socket.io
-- Replace TCP with socket.io
+#### Phase 2: Socket.io
+- Replace Node Event Pool with `socket.io`
 - Cleaner event handling
 - Allows web connectivity
 
-#### Phase 4: Queues
+#### Phase 3: Queues
 - Adding in the delivery queue logic
 - Storage of all inbound events
 - Receipt confirmation
